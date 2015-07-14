@@ -483,6 +483,7 @@ a:visited {
 }
 
 a:hover {
+	transition: all 0.2s ease;
 	color: red;
 	text-decoration: none;
 }
