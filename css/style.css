@@ -435,3 +435,16 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
+
+.menu {
+	background-color: white;
+}
+
+.menu ul {
+	list-style-type: none;
+}
+
+.menu li {
+	display: inline;
+	padding-right: 1em;
+}
