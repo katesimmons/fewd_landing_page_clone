@@ -426,8 +426,9 @@ th {
   padding: 0;
 }
 
-/** karma styles 
+/** karma-specific styles
 */
+
 body {
 	background-color: LightGray;
 }
@@ -436,15 +437,25 @@ div {
 	border: 1px solid Chocolate;
 }
 
-.menu {
-	background-color: white;
+/* Navigation Bar 
+*/
+
+.top-navigation {
+	background-color: #fff;
 }
 
-.menu ul {
-	list-style-type: none;
+.content {
+	width: 60rem;
+	height: 4.375rem;
 }
 
-.menu li {
-	display: inline;
-	padding-right: 1em;
+.logo {
+	margin-left: 2em;
+	height: 70px;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
