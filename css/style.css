@@ -513,9 +513,21 @@ a:visited {
 	height: 45.938rem;
 }
 
+.content h1 {
+	font-size: 3.125rem;
+	margin: 0;
+	font-weight: 300;
+	margin-top: 17.5rem;
+}
+
+.content h3 {
+	font-size: 1.563rem;
+	margin-top: 1.25rem;
+	font-weight: 300;
+}
+
 .content h1,
-.content h3,
-.content .primary-button {
+.content h3 {
 	text-align: center;
 	color: white;
 }
