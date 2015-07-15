@@ -446,6 +446,7 @@ div {
 /* Navigation Bar 
 */
 
+
 html {
 	box-sizing: border-box;
 }
@@ -456,6 +457,9 @@ html {
 .top-navigation {
 	background-color: #fff;
     color: #838994; 
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .content {
