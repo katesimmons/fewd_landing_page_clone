@@ -539,15 +539,10 @@ button {
 	padding: 16px 26px;
 	line-height: 1.33;
 	color: white;
+	cursor: default;
 }
 
 .primary-button {
-	text-shadow: none;
-	border-style: none;
-	border-radius: 4px;
-	padding: 16px 26px;
-	line-height: 1.33;
-	color: white;
 	display: block;
 }
 
