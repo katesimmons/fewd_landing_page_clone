@@ -531,6 +531,7 @@ a:visited {
 	color: white;
 }
 
+
 button {
 	background-color: red;
 	text-shadow: none;
@@ -548,4 +549,33 @@ button {
 
 .hero .primary-button {
 	text-align: center;
+}
+
+/* middle content 
+*/
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.devices {
+	width: 33.33%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+	margin-right: -5px;
+	padding: 1em;
+}
+
+.cases h2,
+.cases h3 {
+	text-align: center;
+	color: #4c5058;
+}
+
+.cases .devices img {
+	margin: auto;
+	width: 100%;
 }
