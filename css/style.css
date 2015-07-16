@@ -440,7 +440,7 @@ body {
 }
 
 div {
-	border: 1px solid Chocolate;
+	border: solid 1px transparent;
 }
 
 /* Navigation Bar 
@@ -451,7 +451,7 @@ html {
 	box-sizing: border-box;
 }
 *, *:before, *:after {
-	box-sizing: inherit
+	box-sizing: inherit;
 }
 
 .top-navigation {
@@ -460,6 +460,7 @@ html {
     position: fixed;
     width: 100%;
     z-index: 9999;
+    border-bottom: solid 1px #838994;
 }
 
 .content {
@@ -568,7 +569,6 @@ button {
 .devices {
 	width: 33.33%;
 	display: inline-block;
-	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4rem;
 	margin-right: -5px;
@@ -603,7 +603,6 @@ button {
 }
 
 .social ul {
-	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4rem;
 	margin-right: -5px;
@@ -640,4 +639,5 @@ button {
 	font-size: .9rem;
 	font-weight: 300;
 	color: #838994;
+	margin-bottom: 8rem;
 }
