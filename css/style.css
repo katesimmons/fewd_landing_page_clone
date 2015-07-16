@@ -597,19 +597,28 @@ button {
 .social {
 	background-color: #fff;
 	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
 }
 
-.footer-content {
-	width: 30%;
-	margin: auto 0;
-}
-
-.icon {
-	width: 33.33%;
-	display: inline-block;
+.social ul {
 	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4rem;
 	margin-right: -5px;
 	padding: 1rem;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.twitter,
+.facebook,
+.instagram {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
 }
