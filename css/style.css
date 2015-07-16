@@ -469,10 +469,12 @@ html {
 	padding: 0px 15px;
 }
 
+/*
 .top-navigation .content {
 	width: 970px;
 	height: 70px;
 }
+*/
 
 .logo {
 	height: 70px;
@@ -641,3 +643,6 @@ button {
 	color: #838994;
 	margin-bottom: 8rem;
 }
+
+hr {
+	color: #838994;
